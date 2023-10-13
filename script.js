@@ -2,7 +2,7 @@ function text(){
 let msg = {
     "content": document.getElementById("text").value
 }
-const  whurl ="https://discord.com/api/webhooks/1149489434123845692/XjqIN7xmkMd-9E3hsiAKUVkDzSVVOiI-ibEcoB_CsltHlL6VRE7nuFtXObrhObRNoFeT"
+const  whurl = document.getElementById("url").value
 
 fetch(whurl + "?wait=true", 
 {"method":"POST", 
